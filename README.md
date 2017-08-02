@@ -44,6 +44,7 @@ By passing `options` you can set the following:
  - `store.client` - Client object, obviates store.host, store.port, store.options
  - `store.host` - Store host (default: `127.0.0.1`)
  - `store.port` - Store port (default: `11211` memcached, `6379` redis)
+ - `store.url` - Store url, obviates store.host, store.port
  - `store.keyPrefix` - Key prefix for store to avoid collisions (default: `jwt-blacklist:`)
  - `store.options` - Additional store client options (default: `{}`)
  - `tokenId` - JWT claim unique to user (default: `sub`)
