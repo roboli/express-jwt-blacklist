@@ -20,7 +20,7 @@
   "repository": "layerhq/express-jwt-blacklist",
   "dependencies": {
     "memcached": "^2.2.1",
-    "redis": "^2.5.3"
+    "redis": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.3.4",
